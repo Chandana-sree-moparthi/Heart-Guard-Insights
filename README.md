@@ -1,6 +1,6 @@
-# HeartGuard Insights
+# Heart Guard Insights
 
-**HeartGuard Insights** is a predictive system that determines the likelihood of an individual having heart disease based on various medical attributes. The system uses machine learning techniques to build a logistic regression model for prediction.
+**Heart Guard Insights** is a predictive system that determines the likelihood of an individual having heart disease based on various medical attributes. The system uses machine learning techniques to build a logistic regression model for prediction.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -11,7 +11,7 @@
 - [Conclusion](#conclusion)
 
 ## Overview
-**HeartGuard Insights** uses a dataset containing various medical attributes such as age, sex, cholesterol levels, and more to predict the possibility of heart disease. The project demonstrates how to preprocess data, train a model, evaluate performance, and use the model for predictions.
+**Heart Guard Insights** uses a dataset containing various medical attributes such as age, sex, cholesterol levels, and more to predict the possibility of heart disease. The project demonstrates how to preprocess data, train a model, evaluate performance, and use the model for predictions.
 
 ## Features
 - **Data preprocessing and exploration**
@@ -77,7 +77,7 @@ The dataset used in this project is stored in `heart.csv` and includes the follo
 
 ## Conclusion
 
-In this project, we developed a predictive system called **HeartGuard Insights**, which utilizes a logistic regression model to determine the likelihood of an individual having heart disease based on medical attributes. By following a systematic approach of data preprocessing, splitting, model training, and evaluation, we achieved good performance with an accuracy of **85.24%** on the training set and **80.49%** on the test set.
+In this project, we developed a predictive system called **Heart Guard Insights**, which utilizes a logistic regression model to determine the likelihood of an individual having heart disease based on medical attributes. By following a systematic approach of data preprocessing, splitting, model training, and evaluation, we achieved good performance with an accuracy of **85.24%** on the training set and **80.49%** on the test set.
 
 The model was further integrated into a user-friendly predictive system that can take individual inputs and predict whether a person is at risk of heart disease. Additionally, the trained model was saved using Python's **pickle** module to facilitate future use and deployment.
 
