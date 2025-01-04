@@ -1,46 +1,33 @@
-Hi, It's me UBprogrammer. Hope you are doing great!
+# Project Instructions
 
--------------------------------------------------------------
--------------------------- Method # 1 to Run project on your Machine -----------------------
-You will find a file named as "packages_used_in_project_development.txt" , which contain all module names with pip installation command t intall them.
-So, install them all and execute the below command in your terminal or just run app.py file as you run any python file:
-				      python app.py
-ENJOY!
--------------------------------------------------------------
--------------------------------------------------------------
--------------------------- Method # 2 to Run project on your Machine -----------------------
+## Method #1: Run Project on Your Machine
 
-Install Python on your machine and execute the below command in your terminal(Open it in same directory where you saved project all files)
-                                     pip install -r /path/to/requirements.txt
+1. Locate the file **"packages_used_in_project_development.txt"**. This file contains the list of required modules along with their installation commands.
+2. Install all required modules by running the following command in your terminal:
+   `pip install -r packages_used_in_project_development.txt`
+3. Once installation is complete, run the project by executing:
+   `python app.py`
 
-After executing the above command, it will install al required libraries you need to run this project,
-Now execute the below command in your terminal or just run app.py file as you run any python file:
-				     python app.py  
+---
 
-This will create a server for your flask App, just follow that link and enjoy the project! 
-ENJOY!
--------------------------------------------------------------
--------------------------------------------------------------
--------------------------- Method # 3 to Run project on your Machine -----------------------
-Strategy: Create a anaconda environment using provided YAML file (conda_requirements_yml.yml) and execute app.py using interpreter of this environment.
+## Method #2: Run Project Using requirements.txt
 
-Now let's get a bit advanced incase the methiod 1 and 2 didn't worked for you:
+1. Install Python on your machine.
+2. Open your terminal and navigate to the directory where the project files are stored.
+3. Install all required libraries using:
+   `pip install -r /path/to/requirements.txt`
+4. Once installation is done, run the project with:
+   `python app.py`  
+   This will start the Flask server. Visit the provided link to enjoy the project!
 
-So, I will recommend to use anaconda environments to run the projects,
+---
 
-Install anaconda on your machine, Navigate to the directory where you have stored project files, open anaconda prompt here and execute below command:
-				     conda env create -n my_project_env --file conda_requirements_yml.yml
+## Method #3: Run Project Using Anaconda Environment
 
-Now activate the created enviorement (my_project_env) and execute below command:
-				     python app.py 
-ENJOY!
----------------------------------------------------------------------
-
-Note: Incase you are unable to run the project, You can always contact me on:
-
-WhatsApp: +923484122900
-Email: ubaidp1049@gmail.com
-
-Thanks! 
-
-
+1. Install Anaconda on your machine.
+2. Navigate to the directory where the project files are stored and open the Anaconda prompt there.
+3. Create an environment using the provided `conda_requirements_yml.yml` file:
+   `conda env create -n my_project_env --file conda_requirements_yml.yml`
+4. Activate the created environment (`my_project_env`) and run the following:
+   `conda activate my_project_env`  
+   `python app.py`
