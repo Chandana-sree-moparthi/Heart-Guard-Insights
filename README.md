@@ -14,11 +14,11 @@
 **HeartGuard Insights** uses a dataset containing various medical attributes such as age, sex, cholesterol levels, and more to predict the possibility of heart disease. The project demonstrates how to preprocess data, train a model, evaluate performance, and use the model for predictions.
 
 ## Features
-- Data preprocessing and exploration
-- Logistic regression model training
-- Evaluation of model performance on training and test datasets
-- Predictive system for individual cases
-- Model serialization using pickle for reuse
+- **Data preprocessing and exploration**
+- **Logistic regression model training**
+- **Evaluation of model performance on training and test datasets**
+- **Predictive system for individual cases**
+- **Model serialization using pickle for reuse**
 
 ## Dataset
 The dataset used in this project is stored in `heart.csv` and includes the following features:
@@ -64,8 +64,8 @@ The dataset used in this project is stored in `heart.csv` and includes the follo
 
 4. **Model Evaluation**  
    Accuracy scores were calculated for both the training and test datasets.  
-   Training Accuracy: 85.24%  
-   Test Accuracy: 80.49%
+   Training Accuracy: **85.24%**  
+   Test Accuracy: **80.49%**
 
 5. **Building a Predictive System**  
    A predictive system was built to take user input and predict whether the person has heart disease.  
