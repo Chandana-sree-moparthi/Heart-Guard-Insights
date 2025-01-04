@@ -1,17 +1,15 @@
-# Project Instructions
-
-## Method #1: Run Project on Your Machine
-
-1. Locate the file **"packages_used_in_project_development.txt"**. This file contains the list of required modules along with their installation commands.
+𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐈𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧𝐬
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+𝐌𝐞𝐭𝐡𝐨𝐝 𝟏: 𝐑𝐮𝐧 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐨𝐧 𝐘𝐨𝐮𝐫 𝐌𝐚𝐜𝐡𝐢𝐧𝐞
+1. Locate the file "packages_used_in_project_development.txt". This file contains the list of required modules along with their installation commands.
 2. Install all required modules by running the following command in your terminal:
    `pip install -r packages_used_in_project_development.txt`
 3. Once installation is complete, run the project by executing:
    `python app.py`
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Method #2: Run Project Using requirements.txt
-
+𝐌𝐞𝐭𝐡𝐨𝐝 𝟐: 𝐑𝐮𝐧 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐔𝐬𝐢𝐧𝐠 𝐫𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬.𝐭𝐱𝐭
 1. Install Python on your machine.
 2. Open your terminal and navigate to the directory where the project files are stored.
 3. Install all required libraries using:
@@ -20,10 +18,9 @@
    `python app.py`  
    This will start the Flask server. Visit the provided link to enjoy the project!
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Method #3: Run Project Using Anaconda Environment
-
+𝐌𝐞𝐭𝐡𝐨𝐝 𝟑: 𝐑𝐮𝐧 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐔𝐬𝐢𝐧𝐠 𝐀𝐧𝐚𝐜𝐨𝐧𝐝𝐚 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭
 1. Install Anaconda on your machine.
 2. Navigate to the directory where the project files are stored and open the Anaconda prompt there.
 3. Create an environment using the provided `conda_requirements_yml.yml` file:
@@ -31,3 +28,5 @@
 4. Activate the created environment (`my_project_env`) and run the following:
    `conda activate my_project_env`  
    `python app.py`
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
